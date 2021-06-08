@@ -1,28 +1,42 @@
+// <script src="./js/hw-massiv.js></script>
+// <script src="./js/hw-bot-1.js"></script>
+// <script src="./js/hw-bot-2.js"></script>
+// <script src="./js/hw-bot-3.js"></script>
+
+
+
 // const a = "Переменная 'а' в script-1.js";
 // console.log(a);
 // const b = "Переменная 'b' в script-1.js";
 // console.log(b); 
 
-/*Confirm*/
-// const shouldRenew = confirm('Вы уверены в выборе?');
-// console.log(shouldRenew);
+/*
+Confirm
+  const shouldRenew = confirm('Вы уверены в выборе?');
+  console.log(shouldRenew);
+*/
 
-/*toFixed писать то количество символов после запятой кот. указано*/
-//let salary = 1300.78945;
-//salary = Number(salary.toFixed(2));
-//console.log(salary);
+/*
+toFixed 
+писать то количество символов после запятой кот. указано
+  let salary = 1300.78945;
+  salary = Number(salary.toFixed(2));
+  console.log(salary);
+*/
 
-/*Преобразование строки в число*/
-// let quantity = '30';
-// let value = 'Эта строка,а не число.';
-// console.log(Number(quantity));
-// console.log(Number(value));
+/*Преобразование строки в число
+  let quantity = '30';
+  let value = 'Эта строка,а не число.';
+  console.log(Number(quantity));
+  console.log(Number(value));
+*/
 
-/*Math*/
-// const base = 2;
-// const power = 3;
-// const result = Math.pow(base, power);
-// console.log(result);
+/*Math
+  const base = 2;
+  const power = 3;
+  const result = Math.pow(base, power);
+  console.log(result);
+*/
 
 /*Генерируем случайные числа*/
 // const max = 80;
@@ -30,7 +44,8 @@
 // const result = Math.round(Math.random() * (max - min) + min);
 // console.log(result); /*округляя выводит или 1 или 2*/
 
-/* Проверить тип. снчала оператор Typeof а потом переменную */
+/* Проверить тип. 
+снчала оператор Typeof а потом переменную */
 // const isOnSale = false;
 // console.log(typeof isOnSale);
 // выведет boolem
