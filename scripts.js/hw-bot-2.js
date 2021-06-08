@@ -78,6 +78,7 @@ function getExtremeElements(array) {
     return array;
 }
 */
+
 /*2.10 Метод строк split()
 Дополни код функции splitMessage(message, delimeter) так, чтобы она возвращала в переменной
 words результат разделения строки message по разделителю delimeter - массив строк.
@@ -125,6 +126,12 @@ function makeStringFromArray(array, delimeter) {
 Все слова slug должна быть разделены тире
 function slugify(title) {
     return title.toLowerCase().split(' ').join('-');
+}
+
+ЛУЧШЕ:
+
+const slugify = function (title) {
+return title.toLowerCase().split(' ').join('-');
 }
 
 {
